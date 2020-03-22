@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
-<leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
-	<global_window_position top="50" left="50" height="500" width="700"/>
-	<global_log_window_position top="0" left="0" height="0" width="0"/>
-</globals>
+<leo_header file_format="2"/>
+<globals/>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
@@ -13,28 +10,43 @@
 <v t="leo.20180902120538.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180902120538.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180902120523.1" a="E"><vh>編輯 reveal</vh>
-<v t="leo.20180902120523.2" a="E"><vh>@path ./../reveal</vh>
-<v t="leo.20180902120523.3" a="E"><vh>@clean index.html</vh>
-<v t="leo.20180902120523.4" a="E"><vh>html</vh>
+<v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
+<v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
+<v t="leo.20180902120523.3"><vh>@clean index.html</vh>
+<v t="leo.20180902120523.4"><vh>html</vh>
 <v t="leo.20180902120523.5"><vh>head</vh></v>
-<v t="leo.20180902120523.6" a="E"><vh>body</vh>
-<v t="leo.20180902120523.7" a="E"><vh>reveal div</vh>
-<v t="leo.20180902120523.8" a="E"><vh>slides div</vh>
-<v t="leo.20180902120523.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180902120523.6"><vh>body</vh>
+<v t="leo.20180902120523.7"><vh>reveal div</vh>
+<v t="leo.20180902120523.8"><vh>slides div</vh>
+<v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11" a="E"><vh>快捷鍵</vh>
+<v t="leo.20200322214111.1"><vh>1</vh>
+<v t="leo.20200322214111.2"><vh>1</vh></v>
+</v>
+<v t="leo.20200322214146.1"><vh>2</vh>
+<v t="leo.20200322214146.2"><vh>2</vh></v>
+</v>
+<v t="leo.20200322214235.1"><vh>3</vh>
+<v t="leo.20200322214235.2"><vh>3</vh></v>
+</v>
+<v t="leo.20200322214654.1"><vh>4</vh>
+<v t="leo.20200322214654.2"><vh>4</vh></v>
+</v>
+<v t="leo.20200322215015.1"><vh>5</vh>
+<v t="leo.20200322215015.2"><vh>5</vh></v>
+</v>
+<v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180902120523.16" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180902120523.18" a="E"><vh>導入影片</vh>
+<v t="leo.20180902120523.18"><vh>導入影片</vh>
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -48,17 +60,15 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## CMSimfly 網際內容管理
+<t tx="leo.20180902120523.10">## CD2020 AG2 亂數分組
 
-### KMOLab
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+ [40723147](https://github.com/s40723147/cd2020)
+ [40723108](https://github.com/s40723108/cd2020)
+ [40723127](https://github.com/s40723127/cd2020)
+ [40723133](https://github.com/s40723133/cd2020)
 &lt;/small&gt;
-
-[CMSimfly 網誌](./../blog/index.html)
-
-
 </t>
 <t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -326,5 +336,128 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200322214111.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200322214111.2">## 須先了解
+
+* HTTP 與 HTTPS
+
+&lt;small&gt;
+HTTP協定不使用加密協定‧
+&lt;/small&gt;
+
+&lt;small&gt;
+HTTPS協定以保密為前提為研發‧
+&lt;/small&gt;
+* SSL協定
+
+&lt;small&gt;
+透過特定的演算法把傳遞內容加密，防止內容被竊取或竄改。
+&lt;/small&gt;
+</t>
+<t tx="leo.20200322214146.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200322214146.2">## 程式內容包刮了
+
+* Dart
+
+&lt;small&gt;
+類似JavaScript，Dart也是一種物件導向語言‧
+&lt;/small&gt;
+
+&lt;small&gt;
+語法風格接近C語言。
+&lt;/small&gt;
+* python
+
+&lt;small&gt;
+Python的設計哲學強調代碼的可讀性和簡潔的語法
+&lt;/small&gt;
+
+&lt;small&gt;
+能夠用更少的代碼表達想法。
+&lt;/small&gt;
+</t>
+<t tx="leo.20200322214235.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200322214235.2">## 運用PYTHON建立亂數分組程序
+
+* 隨機random函數
+
+&lt;small&gt;
+該模塊為各種分佈實現偽隨機數生成器。
+對於整數，從範圍內進行均勻選擇。
+對於序列，統一選擇一個隨機元素，一個用於生成就地列表的隨機排列的函數，
+以及一個用於不替換而進行隨機採樣的函數。
+&lt;/small&gt;
+
+主要運用在將函數中的順序打亂
+
+</t>
+<t tx="leo.20200322214654.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200322214654.2">## 運用PYTHON建立亂數分組程序
+```
+@language python
+import random
+groupList=[['40723104', '40723107', '40723114', '40723115', '40723118', '40723122', '40723123', '40723140', '40723149', '40723151', '40723153', '40723154', '40723155', '40623143', '40723108', '40723127', '40723132', '40723133', '40723137', '40723141', '40723143', '40723144', '40723147', '40723148', '40723150', '40723103', '40723110', '40723112', '40723120', '40723125', '40723126', '40723128', '40723130', '40723139', '40723142', '40723145', '40723146', '40423155', '40723101', '40723102', '40723106', '40723111', '40723119', '40723121', '40723124', '40723134', '40723135', '40723136', '40723138']]
+ 
+group=groupList[0]
+#將group數列隨機排列
+random.shuffle(group)
+#列印數列
+print(group)
+#列印數列(1~12)
+print(group[0:12])
+#列印數列(13~24)
+print(group[12:24])
+#列印數列(25~36)
+print(group[24:36])
+#列印數列(37~49)
+print(group[36:49])
+```</t>
+<t tx="leo.20200322215015.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200322215015.2">## 運用PYTHON建立亂數分組程序
+* 使用 random.shuffle
+
+主要運用在將函數中的順序打亂
+* 使用 print 列印                  
+分段列印打亂的數列</t>
 </tnodes>
 </leo_file>
