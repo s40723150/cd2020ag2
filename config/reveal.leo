@@ -36,18 +36,63 @@
 <v t="leo.20200322215015.1"><vh>5</vh>
 <v t="leo.20200322215015.2"><vh>5</vh></v>
 </v>
-<v t="leo.20180902120523.11"><vh>快捷鍵</vh>
-<v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20200323234841.1"><vh>可攜系統</vh>
+<v t="leo.20200323234841.2"><vh>可攜系統配置</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200323234801.1"><vh>Python 3.8.2</vh>
+<v t="leo.20200323234801.2"><vh>P1</vh>
+<v t="leo.20200323234801.3"><vh>Python 3.8.2 p1</vh></v>
 </v>
-<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
-<v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
+<v t="leo.20200323234801.4"><vh>P2</vh>
+<v t="leo.20200323234801.5"><vh>python 3.8.2 p2</vh></v>
 </v>
-<v t="leo.20180902120523.18"><vh>導入影片</vh>
-<v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
+<v t="leo.20200323234801.6"><vh>pip</vh>
+<v t="leo.20200323234801.7"><vh>pip</vh></v>
+</v>
+<v t="leo.20200323234801.8"><vh>pip模組安裝</vh>
+<v t="leo.20200323234801.9"><vh>pip module</vh></v>
+</v>
+</v>
+<v t="leo.20200323234812.1"><vh>SciTE</vh>
+<v t="leo.20200323234812.2"><vh>P1</vh>
+<v t="leo.20200323234812.3"><vh>SciTE p1</vh></v>
+</v>
+<v t="leo.20200323234812.4"><vh>P2</vh>
+<v t="leo.20200323234812.5"><vh>SciTE p2</vh></v>
+</v>
+<v t="leo.20200323234812.6"><vh>P3</vh>
+<v t="leo.20200323234812.7"><vh>SciTE p3</vh></v>
+</v>
+</v>
+<v t="leo.20200323234820.1"><vh>MSYS2</vh>
+<v t="leo.20200323234820.2"><vh>MSYS2 p1</vh></v>
+</v>
+<v t="leo.20200323234829.1"><vh>PortableGit</vh>
+<v t="leo.20200323234829.2"><vh>P1</vh>
+<v t="leo.20200323234829.3"><vh>PortableGit p1</vh></v>
+</v>
+</v>
+<v t="leo.20200323234851.1"><vh>Tiny C Compiler</vh>
+<v t="leo.20200323234851.2"><vh>tcc p1</vh></v>
+</v>
+<v t="leo.20200323234900.1"><vh>Jupyterlab</vh>
+<v t="leo.20200323234900.2"><vh>Jupyterlab p1</vh></v>
+</v>
+<v t="leo.20200323234908.1"><vh>Fossil SCM</vh>
+<v t="leo.20200323234908.2"><vh>Fossil SCM p1</vh></v>
+</v>
+<v t="leo.20200323235424.1"><vh>快捷鍵</vh>
+<v t="leo.20200323235424.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200323235434.1"><vh>各式內容引用範例</vh>
+<v t="leo.20200323235434.2"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200323235434.3"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20200323235434.4"><vh>導入縮排程式碼</vh>
+<v t="leo.20200323235434.5"><vh>引用程式碼</vh></v>
+</v>
+<v t="leo.20200323235434.6"><vh>導入影片</vh>
+<v t="leo.20200323235434.7"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
 </v>
@@ -69,102 +114,6 @@
  [40723127](https://github.com/s40723127/cd2020)
  [40723133](https://github.com/s40723133/cd2020)
 &lt;/small&gt;
-</t>
-<t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180902120523.12"># 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
-<t tx="leo.20180902120523.13">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20180902120523.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180902120523.15"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180902120523.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180902120523.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
@@ -371,7 +320,7 @@ HTTPS協定以保密為前提為研發‧
 
 						
 </t>
-<t tx="leo.20200322214146.2">## 程式內容包刮了
+<t tx="leo.20200322214146.2">## 程式內容包括了
 
 * Dart
 
@@ -459,5 +408,325 @@ print(group[36:49])
 主要運用在將函數中的順序打亂
 * 使用 print 列印                  
 分段列印打亂的數列</t>
+<t tx="leo.20200323234801.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20200323234801.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200323234801.3"># Python 3.8.2
+
+[下載Python3.8.2](https://www.python.org/downloads/release/python-382/) 的Windows x86-64 executable installer版本，下載完後，執行安裝
+
+&lt;img src="./../images/python_customize_install.png" width="450" &gt;&lt;/iframe&gt;
+
+選Customize installation</t>
+<t tx="leo.20200323234801.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200323234801.5">取消選取pip選項
+
+&lt;img src="./../images/python_CI_pip_uncheck.png" width="450" &gt;&lt;/iframe&gt;
+
+並執行安裝，安裝完成後將檔案放置py382的目錄下並移除安裝在電腦上的Python 3.8.2</t>
+<t tx="leo.20200323234801.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200323234801.7">## 安裝pip
+到[get-pip.py](https://bootstrap.pypa.io/get-pip.py)頁面，另存新檔到CD2020/data執行
+
+```
+python get-pip.py
+```</t>
+<t tx="leo.20200323234801.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200323234801.9">## pip 安裝模組
+
+安裝flask,bs4,xml,elican, mrkdown,flask_cors,leo模組
+
+```
+pip install flask bs4 lxml pelican markdown flask_cors leo
+```</t>
+<t tx="leo.20200323234812.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20200323234812.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200323234812.3"># SciTE
+
+[下載SciTE](https://www.scintilla.org/SciTEDownload.html) full 64-bit download版本
+
+載完後解壓縮檔案，並把檔案 wscite432搬移至 data 目錄底下再執行SciTE
+</t>
+<t tx="leo.20200323234812.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200323234812.5">## 切換到UTF-8編碼
+&lt;img src="./../images/SciTE_UTF-8.gif" width="300"  &gt;&lt;/iframe&gt;
+
+將code.page=0切換成code.page=65001</t>
+<t tx="leo.20200323234812.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200323234812.7">## 開啟即時更新
+&lt;img src="./../images/set_scite_loadon.gif" width="300"  &gt;&lt;/iframe&gt;
+
+將#load.on.activate=1拿掉井字號，儲存並關閉SciTE</t>
+<t tx="leo.20200323234820.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200323234820.2"># MSYS2
+
+[下載MSYS2](https://www.msys2.org/) 下載 msys2-x86_64-20190524.exe 並執行
+
+選擇安裝目錄為CD2020\data\msys64
+</t>
+<t tx="leo.20200323234829.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20200323234829.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200323234829.3"># PortableGit
+
+[下載PortableGit](https://git-scm.com/download/win) 選擇64-bit Git for Windows Portable
+
+安裝在data/portablegit目錄下
+</t>
+<t tx="leo.20200323234841.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200323234841.2"># 可攜系統配置
+
+* Python 3.8.2
+* SciTE
+* PortableGit
+* MSYS2
+* Tiny C Compiler &amp; Jupyterlab
+* Flutter &amp; Fossil SCM
+
+</t>
+<t tx="leo.20200323234851.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200323234851.2"># Tiny C Compiler
+```
+git clone https://github.com/TinyCC/tinycc.git tcc
+```
+git clone 整個倉儲到 data 目錄下並命名目錄為 tcc
+</t>
+<t tx="leo.20200323234900.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200323234900.2"># Jupyterlab
+```
+pip install jupyterlab==2.0.1
+```
+自動執行安裝
+</t>
+<t tx="leo.20200323234908.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200323234908.2"># Fossil SCM
+下載 [Fossil SCM](https://www.fossil-scm.org/) 解壓縮後將 fossil.exe 
+
+放到 data 目錄下
+</t>
+<t tx="leo.20200323235424.1">&lt;!--&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200323235424.2">&lt;!--
+# 投影片快捷鍵
+
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+--&gt;
+</t>
+<t tx="leo.20200323235434.1">&lt;!--
+&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20200323235434.2">&lt;!--
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+#請注意, @others 不可以內縮#
+@others
+   &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200323235434.3"># 數學符號與方程式
+
+Inline math equations go in like so: $\omega = d\phi / dt$. Display
+math should get its own line and be put in in double-dollarsigns:
+
+$$I = \int \rho R^{2} dV$$
+</t>
+<t tx="leo.20200323235434.4">&lt;!--&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200323235434.5">## 利用 Markdown 寫投影片
+以下利用 Markdown 格式展示 Python 程式碼:
+```
+@language python
+# use threading and subprocess to threading the make process
+import os
+import subprocess
+import threading
+
+def domake():
+    
+    path = "../exposed/api/exposed"
+    ubuntu = "../Ubuntu"
+    
+    # create obj path
+    
+    if not os.path.exists(path+"/../obj"):
+        os.makedirs(path+"/../obj")
+    
+    subprocess.call(["make", "clean"], cwd=path)
+    subprocess.call("make", cwd=path)
+    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
+    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
+    
+make = threading.Thread(target=domake)
+make.start()
+```
+</t>
+<t tx="leo.20200323235434.6">&lt;!--&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200323235434.7">
+ ## 使用 iframe 導入影片
+
+### 導入影片 template
+
+&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+ 
+--&gt;</t>
 </tnodes>
 </leo_file>
