@@ -154,18 +154,111 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content"> <a href='Develop.html'>Next</a> >> Develop<br /><h1>About</h1>
-<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
-<h4>利用 cmsimde 建立靜態網誌方法:</h4>
-<p>1. 在 github 建立倉儲, git clone 到近端</p>
-<p>2. 參考 <a href="https://github.com/mdecourse/newcms">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
-<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
-<p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
-<p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
-<p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
-<p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
-<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
-<br /> <a href='Develop.html'>Next</a> >> Develop</div>
+    <div id="tipue_search_content">Project 1 << <a href='Project 1.html'>Previous</a> <a href='可攜系統.html'>Next</a> >> 可攜系統<br /><h1>亂數分組</h1>
+<h4>Create by 40723147</h4>
+<p>亂數分組<span><span style="background-color: #ffff00;">python</span>程式</span>-甲班</p>
+<div>
+<div class="syntaxhighlighter py" id="highlighter_570665">
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import random
+groupList=[['40723104', '40723107', '40723114', '40723115', '40723118', '40723122', '40723123', '40723140', '40723149', '40723151', '40723153', '40723154', '40723155', '40623143', '40723108', '40723127', '40723132', '40723133', '40723137', '40723141', '40723143', '40723144', '40723147', '40723148', '40723150', '40723103', '40723110', '40723112', '40723120', '40723125', '40723126', '40723128', '40723130', '40723139', '40723142', '40723145', '40723146', '40423155', '40723101', '40723102', '40723106', '40723111', '40723119', '40723121', '40723124', '40723134', '40723135', '40723136', '40723138']]
+ 
+group=groupList[0]
+#將group數列隨機排列
+random.shuffle(group)
+#列印數列
+print(group)
+#列印數列(1~12)
+print(group[0:12])
+#列印數列(13~24)
+print(group[12:24])
+#列印數列(25~36)
+print(group[24:36])
+#列印數列(37~49)
+print(group[36:49])</pre>
+</div>
+</div>
+<p><span></span>使用python編寫亂數分組程式</p>
+<p>[Python]-隨機random函數</p>
+<div>
+<div>
+<div class="syntaxhighlighter py" id="highlighter_84612">
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import random</pre>
+</div>
+</div>
+<span><br/></span>匯入 <span>隨機random函數</span></div>
+<div><span></span></div>
+<div>
+<div class="syntaxhighlighter py" id="highlighter_510963">
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">groupList=[['40723104', '40723107', '40723114', '40723115', '40723118', '40723122', '40723123', '40723140', '40723149', '40723151', '40723153', '40723154', '40723155', '40623143', '40723108', '40723127', '40723132', '40723133', '40723137', '40723141', '40723143', '40723144', '40723147', '40723148', '40723150', '40723103', '40723110', '40723112', '40723120', '40723125', '40723126', '40723128', '40723130', '40723139', '40723142', '40723145', '40723146', '40423155', '40723101', '40723102', '40723106', '40723111', '40723119', '40723121', '40723124', '40723134', '40723135', '40723136', '40723138']]</pre>
+</div>
+</div>
+<div>定義 groupList=所有修課學生 共49位</div>
+<div></div>
+<div>
+<div class="syntaxhighlighter py" id="highlighter_181931">
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">group=groupList[0]</pre>
+</div>
+</div>
+<div>設定變數group=groupList[0] </div>
+<div></div>
+<div>
+<div class="syntaxhighlighter py" id="highlighter_920113">
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">random.shuffle(group)</pre>
+</div>
+</div>
+<div><span><span>使用 random.shuffle</span><br/><br/><span>主要運用在將函數中的順序</span>打亂</span></div>
+<div><span></span></div>
+<div><span></span></div>
+<div>將函數(<span>group)的順序打亂</span></div>
+<div><span></span></div>
+<div>
+<div>
+<div class="syntaxhighlighter py" id="highlighter_12750">
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">#列印數列
+print(group)
+#列印數列(1~12)
+print(group[0:12])
+#列印數列(13~24)
+print(group[12:24])
+#列印數列(25~36)
+print(group[24:36])
+#列印數列(37~49)
+print(group[36:49])</pre>
+</div>
+</div>
+</div>
+<div></div>
+<div><span>print 列印運用</span></div>
+<div><span></span></div>
+<div><span><br/><br/>參考資料:<a href="https://nkust.gitbook.io/python/untitled">https://nkust.gitbook.io/python/untitled</a></span></div>
+<div><span></span></div>
+<div><span></span></div>
+<div><span></span></div>
+<div><span style="background-color: #ffcc99;">測試1</span></div>
+<div><span><img alt="" height="177" src="https://s40723147.github.io/cd2020/images/%E7%AF%84%E4%BE%8B1.png" width="1190"/></span></div>
+<div><span></span></div>
+<div><span>標示 1 2 3 4 組</span></div>
+<div><span></span></div>
+<h4><span>簡略談<strong>Dart、<b>python</b></strong></span></h4>
+<div><span></span></div>
+<div>
+<div><strong><span>Dart</span></strong></div>
+<p><span style="background-color: #00ffff;">開放原始碼程式語言</span>，由Google主導開發，於2011年10月公開。它的開發團隊由</p>
+<p>Google Chrome瀏覽器V8引擎團隊的領導者拉爾斯·巴克主持，目標在於成為下一代</p>
+<p>結構化Web開發語言。</p>
+<p><span style="background-color: #00ffff;">類似JavaScript</span>，<span style="background-color: #00ffff;">Dart也是一種物件導向語言</span>，但是它採用類別為基的程式設計。它</p>
+<p>只允許單一繼承，<span style="background-color: #00ffff;">語法風格接近C語言。</span></p>
+<p>參考資料:<a href="https://zh.wikipedia.org/zh-tw/Dart">https://zh.wikipedia.org/zh-tw/Dart</a></p>
+<p><span color="#333333"><span><b>python</b></span></span><span color="#333333"><br/></span></p>
+<p><span color="#333333">是一種<span style="background-color: #00ffff;">廣泛使用</span>的直譯式、進階程式、通用型程式語言，由吉多·范羅蘇姆創造，第</span></p>
+<p><span color="#333333">一版釋出於1991年。可以視之為一種改良（加入一些其他程式語言的優點，如物件</span></p>
+<p><span color="#333333">導向）的LISP。<span style="background-color: #00ffff;">Python的設計哲學強調代碼的可讀性和簡潔的語法</span>（尤其</span></p>
+<p><span color="#333333">是使用空格縮排劃分代碼塊，而非使用大括號或者關鍵詞）。相比於C++或Java，</span></p>
+<p><span color="#333333">Python讓開發者<span style="background-color: #00ffff;">能夠用更少的代碼表達想法</span>。不管是小型還是大型程式，該語言都</span></p>
+<p><span color="#333333">試圖讓程式的結構清晰明瞭。</span></p>
+<p>參考資料:<a href="https://zh.wikipedia.org/zh-tw/Python">https://zh.wikipedia.org/zh-tw/Python</a></p>
+</div>
+<br />Project 1 << <a href='Project 1.html'>Previous</a> <a href='可攜系統.html'>Next</a> >> 可攜系統</div>
         
     <!-- footer -->
       <div class="container">
