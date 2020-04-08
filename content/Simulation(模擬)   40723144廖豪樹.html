@@ -154,16 +154,35 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">紀錄-2 << <a href='紀錄-2.html'>Previous</a> <a href='可攜系統紀錄.html'>Next</a> >> 可攜系統紀錄<br /><h1>亂數分組紀錄</h1>
-<p>W2：<br/>相關資料尋找、查詢、閱讀</p>
-<p>簡易python撰寫 練習 運用 </p>
-<p>編寫亂數分組程序</p>
-<p>討論其關聯性及應用</p>
-<p><span>W3：<br/>製作相關內容整理</span></p>
-<p><span>編輯程序 流程最簡化</span></p>
-<p><span>PDF製作 編排整理網誌 Revral 撰寫</span></p>
-<p></p>
-<br />紀錄-2 << <a href='紀錄-2.html'>Previous</a> <a href='可攜系統紀錄.html'>Next</a> >> 可攜系統紀錄</div>
+    <div id="tipue_search_content">Tutorials << <a href='Tutorials.html'>Previous</a> <a href='紀錄-1.html'>Next</a> >> 紀錄-1<br /><h1>Simulation(模擬)   40723144廖豪樹</h1>
+<p>A simulation in CoppeliaSim can be started, paused and stopped with [Menu bar --&gt; Simulation --&gt; Start/Pause/Stop simulation] or through the related toolbar buttons:</p>
+<p>可以使用[<span style="background-color: #ffff00;">菜單欄-&gt;模擬-&gt;開始/暫停/停止模擬</span>]或通過相關的工具欄按鈕來啟動，暫停和停止CoppeliaSim中的模擬：</p>
+<p style="text-align: center;"> <img alt="" height="83" src="./../images/chrome_2020-04-08_09-53-33.png" width="228"/></p>
+<p style="text-align: left;">.</p>
+<p style="text-align: left;"><span><span style="color: #ff0000;">Internally(在內部)</span>,<span> </span><span style="color: #ff0000;">the simulator(模擬器)</span><span> </span>will use<span> </span><span style="color: #ff0000;">additional(額外)</span><span> </span><span style="color: #ff0000;">intermediate(中間)</span><span> </span>states in order to<span> </span><span style="color: #ff0000;">correctly(正確地)</span><span> </span><span style="color: #ff0000;">inform </span></span><span style="color: #ff0000;"><a href="https://www.coppeliarobotics.com/helpFiles/en/scripts.htm" style="color: #ff0000;">scripts</a>(告知腳本)</span><span><span> </span>or programs about what will happen next. Following<span> </span><span style="color: #ff0000;">state diagram(狀態圖)</span><span> </span><span style="color: #ff0000;">illustrates(說明)</span><span> </span>the simulator's<span> </span><span style="color: #ff0000;">internal(內部)</span><span> </span>states:</span></p>
+<p style="text-align: left;"><span>在內部，<span style="background-color: #ffff00;">模擬器將使用其他中間狀態</span>，以正確告知腳本或程序接下來將發生的情況。 <span style="background-color: #ffff00;">以下狀態圖說明了模擬器的內部狀態</span>：<br/></span></p>
+<p style="text-align: center;"><span><img alt="" height="390" src="./../images/ApplicationFrameHost_2020-04-08_11-35-37.png" width="533"/></span></p>
+<p>.</p>
+<p>Scripts and programs should <span style="color: #ff0000;">alwaysreact(總是反應)</span> according to the current system call function and possibly the simulation state in order to <span style="color: #ff0000;">behave correctly(正確運行)</span>. It is good practice to <span style="color: #ff0000;">divide each(劃分每個</span>) control code into <span style="color: #ff0000;">at least(至少)</span> 4 system call functions (e.g. for<span style="color: #ff0000;"> non-threaded(非線性)</span> child scripts):</p>
+<p>腳本和程序應始終<span style="background-color: #ffff00;">根據當前系統調用功能以及可能的模擬狀態進行反應</span>，以便正確運行。 優良作法是<span style="background-color: #ffff00;">將每個控制代碼至少分為4個系統調用函數</span>（例如，用於非線程子腳本）：</p>
+<ul style="list-style-type: disc;">
+<li><strong><span style="color: #ff0000;">In</span><span style="color: #000000;"><span style="color: #ff0000;">itialization(初始化)</span> function:</span></strong> sysCall_init: the function is called only when the script is <span style="color: #ff0000;">initialized(初始化)</span>.</li>
+</ul>
+<p style="text-align: center;"><strong><span style="color: #000000;">初始化函數：</span></strong>sysCall_init：僅在腳本初始化時才調用該函數。</p>
+<ul style="list-style-type: disc;">
+<li style="text-align: left;"><strong><span style="color: #000000;"><span style="color: #ff0000;">Actuation(激活)</span> function: </span></strong>sysCall_actuation: the function is called when actuation should happen.</li>
+</ul>
+<p style="text-align: center;"><strong><span style="color: #000000;">激活函數</span></strong>：sysCall_actuation：應在發生激活時調用該函數。</p>
+<ul style="list-style-type: disc;">
+<li style="text-align: left;"><strong><span style="color: #000000;"><span style="color: #ff0000;">Sensing(感測)</span> function:</span> </strong>sysCall_sensing: this function is called when sensing should happen.</li>
+</ul>
+<p style="text-align: center;"><strong><span style="color: #000000;">感測功能：</span></strong>sysCall_sensing：應在傳感測發生時調用此函數。</p>
+<ul style="list-style-type: disc;">
+<li style="text-align: left;"><strong><span style="color: #000000;"><span style="color: #ff0000;">Clean-up(清理)</span> function:</span></strong> sysCall_cleanup: the function is called just before the script is <span style="color: #ff0000;">de-initialized(未初始化)</span> (e.g. at simulation end, or when the script is <span style="color: #ff0000;">destroyed(銷毀)</span>).</li>
+</ul>
+<p style="text-align: center;"><strong><span style="color: #000000;">                  清理函數：</span></strong>sysCall_cleanup：該函數在腳本未初始化之前被調用（例如在模擬結束時或腳本被銷毀時）。</p>
+<h4 style="text-align: left;"><strong>Simulation loop</strong></h4>
+<br />Tutorials << <a href='Tutorials.html'>Previous</a> <a href='紀錄-1.html'>Next</a> >> 紀錄-1</div>
         
     <!-- footer -->
       <div class="container">
