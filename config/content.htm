@@ -234,7 +234,8 @@ EXIT</pre>
 <p style="text-align: justify;">模型是場景的子元素。除了文件（“ * .ttm”-文件類型）外，模型本身不能存在，也不能通過自身進行模擬。模型必須包含在場景中才能運行<span>。下圖為scenes &amp; Models 之間的關係:</span></p>
 <p><span><img alt="" height="473" src="/images/chrome_2020-03-24_00-39-57.png" width="524"/></span></p>
 <p><span style="background-color: #ffff00;"><big><big>Environment</big></big></span></p>
-<p style="text-align: justify;">CoppeliaSim中的環境定義了屬於場景但不屬於場景物件的屬性和參數。保存模型時不保存環境屬性和參數，但只有保存場景則會</p><h3>Calculation modules</h3>
+<p style="text-align: justify;">CoppeliaSim中的環境定義了屬於場景但不屬於場景物件的屬性和參數。保存模型時不保存環境屬性和參數，但只有保存場景則會</p>
+<h3>Calculation modules</h3>
 <p><span style="background-color: #ffff00;"><big><big>Collision detection</big></big></span></p>
 <p><span style="background-color: #ffff00;"></span></p>
 <p><span style="background-color: #ffff00;"><big><big>Distance calculation</big></big></span></p>
@@ -262,7 +263,8 @@ Newton Dynamics是一個跨平台的逼真的物理模擬文庫。它實現了�
 </ul>
 </ul>
 </ul>
-<p style="text-align: justify;"></p><h3>編寫代碼</h3>
+<p style="text-align: justify;"></p>
+<h3>編寫代碼</h3>
 <p>CoppeliaSim是高度可定制的模擬器：可以自定義模擬的每個方面。此外，模擬器本身可以進行定制，以使其性能完全符合要求。這可以通過精心設計的應用程序編程接口（API）來實現。支持六種不同的編程或編碼方法，每種方法都具有相對於其他方法的特殊優點&amp;缺點，但所有六種方法都是相互兼容的（即可以同時使用，甚至可以穿插使用）。模型，場景或模擬器本身的控制實體可以位於以下位置：</p>
 <ul>
 <li><span>an </span><a href="https://www.coppeliarobotics.com/helpFiles/en/scripts.htm">embedded script</a><span><span> :</span></span></li>
@@ -271,9 +273,21 @@ Newton Dynamics是一個跨平台的逼真的物理模擬文庫。它實現了�
 <li><span>a </span><a href="https://www.coppeliarobotics.com/helpFiles/en/remoteApiOverview.htm">remote API</a> :</li>
 <li><span>a </span><a href="https://www.coppeliarobotics.com/helpFiles/en/rosInterfaces.htm">ROS node</a><span><span> :</span></span></li>
 <li><span>a </span><a href="https://www.coppeliarobotics.com/helpFiles/en/blueZeroPlugin.htm">BlueZero node</a> :</li>
-</ul><h3>模擬</h3>
+</ul>
+<h3>模擬</h3>
 <h3>Tutorials</h3>
 <p><a href="https://www.coppeliarobotics.com/helpFiles/en/tutorials.htm">Tutorials</a></p>
-<p><img alt="" height="57" src="/images/chrome_2020-03-24_01-07-28.png" width="249"/></p><h1>紀錄</h1>
+<p><img alt="" height="57" src="/images/chrome_2020-03-24_01-07-28.png" width="249"/></p>
+<h3>Simulation(模擬)</h3>
+<p>A simulation in CoppeliaSim can be started, paused and stopped with [Menu bar --&gt; Simulation --&gt; Start/Pause/Stop simulation] or through the related toolbar buttons:</p>
+<p>可以使用[<span style="background-color: #ffff00;">菜單欄-&gt;模擬-&gt;開始/暫停/停止模擬</span>]或通過相關的工具欄按鈕來啟動，暫停和停止CoppeliaSim中的模擬：</p>
+<p style="text-align: center;"> <img alt="" height="83" src="/images/chrome_2020-04-08_09-53-33.png" width="228"/></p>
+<p style="text-align: left;"><span><span style="color: #ff0000;">Internally(在內部)</span>,<span> </span><span style="color: #ff0000;">the simulator(模擬器)</span><span> </span>will use<span> </span><span style="color: #ff0000;">additional(額外)</span><span> </span><span style="color: #ff0000;">intermediate(中間)</span><span> </span>states in order to<span> </span><span style="color: #ff0000;">correctly(正確地)</span><span> </span><span style="color: #ff0000;">inform </span></span><span style="color: #ff0000;"><a href="https://www.coppeliarobotics.com/helpFiles/en/scripts.htm" style="color: #ff0000;">scripts</a>(告知腳本)</span><span><span> </span>or programs about what will happen next. Following<span> </span><span style="color: #ff0000;">state diagram(狀態圖)</span><span> </span><span style="color: #ff0000;">illustrates(說明)</span><span> </span>the simulator's<span> </span><span style="color: #ff0000;">internal(內部)</span><span> </span>states:</span></p>
+<p style="text-align: left;"><span>在內部，模擬器將使用其他中間狀態，以正確告知腳本或程序接下來將發生的情況。 以下狀態圖說明了模擬器的內部狀態：<br/></span></p>
+<p style="text-align: center;"><span><img alt="" height="390" src="/images/ApplicationFrameHost_2020-04-08_11-35-37.png" width="533"/></span></p>
+<p></p>
+<p></p>
+<h1>紀錄</h1>
 <p>W2：<br/>可攜系統：<br/>安裝 python, SciTE, Portablegit, msys2, <span>Tiny C Compiler, Jupyterlab, Fossil SCM, Leo Editor 和 Flutter 放入可攜系統(有先放先前的putty和ssh到測試是否可以順利使用ssh改版)。</span></p>
-<p><span>W3：<br/>可攜系統：<br/>配置webots到可攜系統上，測試msys2裡建立gcc編譯環境。<br/></span></p>
+<p><span>W3：<br/>可攜系統：<br/>配置webots到可攜系統上，測試msys2裡建立gcc編譯環境。</span></p>
+<p></p>
