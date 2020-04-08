@@ -81,6 +81,20 @@
 <v t="leo.20200323234908.1"><vh>Fossil SCM</vh>
 <v t="leo.20200323234908.2"><vh>Fossil SCM p1</vh></v>
 </v>
+<v t="leo.20200325001359.1"><vh>CoppeliaSim</vh>
+<v t="leo.20200325021246.1"><vh>CoppeliaSim</vh>
+<v t="leo.20200325001359.2"><vh>CoppeliaSim</vh></v>
+</v>
+<v t="leo.20200325023942.1"><vh>CoppeliaSim</vh>
+<v t="leo.20200325023942.2"><vh>CoppeliaSim</vh></v>
+</v>
+<v t="leo.20200325021142.1"><vh>CoppeliaSim</vh>
+<v t="leo.20200325021142.2"><vh>CoppeliaSim</vh></v>
+</v>
+<v t="leo.20200325025000.1"><vh>CoppeliaSim</vh>
+<v t="leo.20200325025000.2"><vh>CoppeliaSim</vh></v>
+</v>
+</v>
 <v t="leo.20200323235424.1"><vh>快捷鍵</vh>
 <v t="leo.20200323235424.2"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -728,5 +742,66 @@ make.start()
 &lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
  
 --&gt;</t>
+<t tx="leo.20200325001359.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+						
+</t>
+<t tx="leo.20200325001359.2">## CoppeliaSim
+#### 具有集成開發環境的機器人模擬器CoppeliaSim基於分佈式控制體系結構：可以通過嵌入式腳本，插件，ROS或BlueZero節點，遠程API客戶端或自定義解決方案分別控制每個對象/模型。這使CoppeliaSim非常通用，非常適合多機器人應用。</t>
+<t tx="leo.20200325021142.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200325021142.2">## 主要特點
+* 跨平台支援
+* 支援六種編程方法
+* 支援六種程式語言
+* 具備完整的運動學計算器 
+* RAPI (允許CoppeliaSim與外部應用程序之間的通信)
+* 接近真實的感測器&amp;完整的運動學計算器</t>
+<t tx="leo.20200325021246.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200325023942.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200325023942.2">## CoppeliaSim
+#### CoppeliaSim用於快速算法開發，工廠自動化模擬，快速原型製作和驗證，機器人技術相關的教育，遠程監控，安全性雙重檢查...等等。
+
+#### CoppeliaRobotics在[CoppeliaSim version history](https://www.coppeliarobotics.com/helpFiles/en/versionInfo.htm)寫道不再更新V-rep，並將精力投入CoppeliaSim的開發。且CoppeliaSim運行速度比V-rep，功能也更多。</t>
+<t tx="leo.20200325025000.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200325025000.2">## 四輪機器人將會使用到以下:
+* Scenes and models (場景&amp;模型)
+* Environment (環境)
+* Calculation modules (計算模塊)
+* Writing code (編程)
+* Simulation (模擬)
+</t>
 </tnodes>
 </leo_file>
