@@ -215,10 +215,7 @@ EXIT</pre>
 </div>
 </div>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/HQzz7f9IopE" width="560"></iframe><br/>詳細流程在<a href="https://s40723150.github.io/cd2020/content/W2.html">W2</a>頁面</p>
-<p>基礎可攜系統<a href="https://drive.google.com/file/d/15b_VXiaXYLqaMuMAvAeZKegX4eSkiU70/view">下載</a></p>
-<p>加入webots的可攜系統<a href="https://drive.google.com/open?id=1Ghi3rTB-HIZEn49PWgfOap7aha2UZvK9">下載 </a></p>
-<p></p>
-<h2>四輪小車</h2>
+<p><span>基礎可攜系統</span><a href="https://drive.google.com/file/d/15b_VXiaXYLqaMuMAvAeZKegX4eSkiU70/view">下載<br/></a><a href="https://drive.google.com/open?id=1Ghi3rTB-HIZEn49PWgfOap7aha2UZvK9">有配置Webots<br/></a><a href="https://drive.google.com/open?id=1TN1NWb0rj675Ld-mb4QRNn-0ECRb2eZG">有配置Webots+</a><span><a href="https://drive.google.com/open?id=1TN1NWb0rj675Ld-mb4QRNn-0ECRb2eZG">CoppeliaSim</a>(含</span><span>xelatex)<br/>P.S. 可以下載可攜系統的leo都已經升級到6.2.1版本了</span></p><h2>四輪小車</h2>
 <p><span style="background-color: #ffff00;"><big><big>Assignment 1:</big></big></span></p>
 <p>Due March 25, 2020 for class 2a .</p>
 <p>What do you need to know from <a href="http://www.coppeliarobotics.com/helpFiles/index.html" rel="nofollow">http://www.coppeliarobotics.com/helpFiles/index.html</a> to implement a four-wheeled robot?</p>
@@ -288,33 +285,32 @@ Newton Dynamics是一個跨平台的逼真的物理模擬文庫。它實現了�
 <h3>Simulation(模擬)</h3>
 <h4>40723144廖豪樹</h4>
 <p>A simulation in CoppeliaSim can be started, paused and stopped with [Menu bar --&gt; Simulation --&gt; Start/Pause/Stop simulation] or through the related toolbar buttons:</p>
-<p>可以使用[<span>菜單欄-&gt;模擬-&gt;開始/暫停/停止模擬</span>]或通過相關的工具欄按鈕來啟動，暫停和停止CoppeliaSim中的模擬：</p>
+<p>可以使用<span style="background-color: #ffff00;">[菜單欄-&gt;模擬-&gt;開始/暫停/停止模擬</span>]或通過相關的工具欄按鈕來啟動，暫停和停止CoppeliaSim中的模擬：</p>
 <p> <img alt="" height="83" src="/images/chrome_2020-04-08_09-53-33.png" width="228"/></p>
 <p>.</p>
-<p><span><span>Internally(在內部)</span>,<span> </span><span>the simulator(模擬器)</span><span> </span>will use<span> </span><span>additional(額外)</span><span> </span><span>intermediate(中間)</span><span> </span>states in order to<span> </span><span>correctly(正確地)</span><span> </span><span>inform </span></span><span><a href="https://www.coppeliarobotics.com/helpFiles/en/scripts.htm">scripts</a>(告知腳本)</span><span><span> </span>or programs about what will happen next. Following<span> </span><span>state diagram(狀態圖)</span><span> </span><span>illustrates(說明)</span><span> </span>the simulator's<span> </span><span>internal(內部)</span><span> </span>states:</span></p>
-<p><span>在內部，<span>模擬器將使用其他中間狀態</span>，以正確告知腳本或程序接下來將發生的情況。 <span>以下狀態圖說明了模擬器的內部狀態</span>：<br/></span></p>
+<p><span><span style="color: #ff0000;">Internally(在內部)</span>,<span> </span><span>the <span style="color: #ff0000;">simulator(模擬器)</span></span><span style="color: #ff0000;"> </span>will use<span> </span><span style="color: #ff0000;">additional(額外)</span><span> </span><span style="color: #ff0000;">intermediate(中間) </span>states in order to<span style="color: #ff0000;"> correctly(正確地) inform </span></span><span style="color: #ff0000;"><a href="https://www.coppeliarobotics.com/helpFiles/en/scripts.htm" style="color: #ff0000;">scripts</a>(告知腳本)</span><span><span style="color: #ff0000;"> </span>or programs about what will happen next. Following<span> </span><span style="color: #ff0000;">state diagram(狀態圖)</span><span> </span><span style="color: #ff0000;">illustrates(說明)</span><span> </span>the simulator's<span> </span><span style="color: #ff0000;">internal(內部) </span>states:</span></p>
+<p><span>在內部，<span style="background-color: #ffff00;">模擬器將使用其他中間狀態</span>，以正確告知腳本或程序接下來將發生的情況。 <span>以下<span style="background-color: #ffff00;">狀態圖說明了模擬器的內部狀態</span></span>：<br/></span></p>
 <p><span><img alt="" height="390" src="/images/ApplicationFrameHost_2020-04-08_11-35-37.png" width="533"/></span></p>
 <p>.</p>
-<p>Scripts and programs should <span>alwaysreact(總是反應)</span> according to the current system call function and possibly the simulation state in order to <span>behave correctly(正確運行)</span>. It is good practice to <span>divide each(劃分每個</span>) control code into <span>at least(至少)</span> 4 system call functions (e.g. for<span> non-threaded(非線性)</span> child scripts):</p>
+<p>Scripts and programs should<span style="color: #ff0000;"> alwaysreact(總是反應)</span> according to the current system call function and possibly the simulation state in order to <span>behave correctly(正確運行)</span>. It is good practice to <span style="color: #ff0000;">divide each(劃分每個)</span> control code into <span>at<span style="color: #ff0000;"> least(至少)</span></span> 4 system call functions (e.g. for<span style="color: #ff0000;"> non-threaded(非線性) </span>child scripts):</p>
 <p>腳本和程序應始終<span>根據當前系統調用功能以及可能的模擬狀態進行反應</span>，以便正確運行。 優良作法是<span>將每個控制代碼至少分為4個系統調用函數</span>（例如，用於非線程子腳本）：</p>
 <ul>
-<li><strong><span>In</span><span><span>itialization(初始化)</span> function:</span></strong> sysCall_init: the function is called only when the script is <span>initialized(初始化)</span>.</li>
+<li><strong><span style="color: #ff0000;">In</span><span><span style="color: #ff0000;">itialization(初始化)</span> function:</span></strong> sysCall_init: the function is called only when the script is<span style="color: #ff0000;"> initialized(初始化)</span>.</li>
 </ul>
 <p style="padding-left: 30px;"><strong><span>初始化函數：</span></strong>sysCall_init：僅在腳本初始化時才調用該函數。</p>
 <ul>
-<li><strong><span><span>Actuation(激活)</span> function: </span></strong>sysCall_actuation: the function is called when actuation should happen.</li>
+<li><strong><span><span style="color: #ff0000;">Actuation(激活)</span> function: </span></strong>sysCall_actuation: the function is called when actuation should happen.</li>
 </ul>
 <p style="padding-left: 30px;"><strong><span>激活函數</span></strong>：sysCall_actuation：應在發生激活時調用該函數。</p>
 <ul>
-<li><strong><span><span>Sensing(感測)</span> function:</span> </strong>sysCall_sensing: this function is called when sensing should happen.</li>
+<li><strong><span><span style="color: #ff0000;">Sensing(感測) </span>function:</span> </strong>sysCall_sensing: this function is called when sensing should happen.</li>
 </ul>
-<p style="padding-left: 30px;"><strong><span>感測功能：</span></strong>sysCall_sensing：應在傳感測發生時調用此函數。</p>
+<p style="padding-left: 30px;"><strong><span>感測功能：</span></strong>sysCall_sensing：應在感測發生時調用此函數。</p>
 <ul>
-<li><strong><span><span>Clean-up(清理)</span> function:</span></strong> sysCall_cleanup: the function is called just before the script is <span>de-initialized(未初始化)</span> (e.g. at simulation end, or when the script is <span>destroyed(銷毀)</span>).</li>
+<li><strong><span><span style="color: #ff0000;">Clean-up(清理)</span> function:</span></strong> sysCall_cleanup: the function is called just before the script is<span style="color: #ff0000;"> de-initialized(未初始化)</span> (e.g. at simulation end, or when the script is <span style="color: #ff0000;">destroyed(銷毀)</span>).</li>
 </ul>
 <p style="padding-left: 30px;"><strong><span>清理函數：</span></strong>sysCall_cleanup：該函數在腳本未初始化之前被調用（例如在模擬結束時或腳本被銷毀時）。</p>
-<h4><strong>Simulation loop</strong></h4>
-<h3>Tutorials</h3>
+<p><big><big>Simulation loop</big></big></p><h3>Tutorials</h3>
 <p><a href="https://www.coppeliarobotics.com/helpFiles/en/tutorials.htm">Tutorials</a></p>
 <p><img alt="" height="57" src="/images/chrome_2020-03-24_01-07-28.png" width="249"/></p>
 <h1>Assignment 2</h1>
