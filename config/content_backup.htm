@@ -133,7 +133,8 @@ print(group[36:49])</pre>
 <p style="padding-left: 30px;">能夠在網頁上擷取或是引用資料<br/>直接傳達到亂數程序上提供更方便的服務</p>
 <p>4.資料庫存取</p>
 <p style="padding-left: 30px;">完成亂數程序後是否可以<br/>直接作存取或是匯出動作</p>
-</div><h2>可攜系統</h2>
+</div>
+<h2>可攜系統</h2>
 <h4>Create Portable Programming System for Windows 10<br/>Create by 40723150</h4>
 <h4><strong><a href="https://github.com/s40723150/cd2020ag2/blob/master/PDF/cd2020%20ag2%20Project%201%20%E5%8F%AF%E6%94%9C%E7%B3%BB%E7%B5%B1.pdf">pdf連結</a></strong></h4>
 <p>在可攜系統目錄下先創一個 data 目錄</p>
@@ -215,7 +216,8 @@ EXIT</pre>
 </div>
 </div>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/HQzz7f9IopE" width="560"></iframe><br/>詳細流程在<a href="https://s40723150.github.io/cd2020/content/W2.html">W2</a>頁面</p>
-<p><span>基礎可攜系統</span><a href="https://drive.google.com/file/d/15b_VXiaXYLqaMuMAvAeZKegX4eSkiU70/view">下載<br/></a><a href="https://drive.google.com/open?id=1Ghi3rTB-HIZEn49PWgfOap7aha2UZvK9">有配置Webots<br/></a><a href="https://drive.google.com/open?id=1TN1NWb0rj675Ld-mb4QRNn-0ECRb2eZG">有配置Webots+</a><span><a href="https://drive.google.com/open?id=1TN1NWb0rj675Ld-mb4QRNn-0ECRb2eZG">CoppeliaSim</a>(含</span><span>xelatex)<br/>P.S. 可以下載可攜系統的leo都已經升級到6.2.1版本了</span></p><h2>四輪小車</h2>
+<p><span>基礎可攜系統</span><a href="https://drive.google.com/file/d/15b_VXiaXYLqaMuMAvAeZKegX4eSkiU70/view">下載<br/></a><a href="https://drive.google.com/open?id=1Ghi3rTB-HIZEn49PWgfOap7aha2UZvK9">有配置Webots<br/></a><a href="https://drive.google.com/open?id=1TN1NWb0rj675Ld-mb4QRNn-0ECRb2eZG">有配置Webots+</a><span><a href="https://drive.google.com/open?id=1TN1NWb0rj675Ld-mb4QRNn-0ECRb2eZG">CoppeliaSim</a>(含</span><span>xelatex)<br/>P.S. 可以下載可攜系統的leo都已經升級到6.2.1版本了</span></p>
+<h2>四輪小車</h2>
 <p><span style="background-color: #ffff00;"><big><big>Assignment 1:</big></big></span></p>
 <p>Due March 25, 2020 for class 2a .</p>
 <p>What do you need to know from <a href="http://www.coppeliarobotics.com/helpFiles/index.html" rel="nofollow">http://www.coppeliarobotics.com/helpFiles/index.html</a> to implement a four-wheeled robot?</p>
@@ -293,7 +295,7 @@ Newton Dynamics是一個跨平台的逼真的物理模擬文庫。它實現了�
 <p><span><img alt="" height="390" src="/images/ApplicationFrameHost_2020-04-08_11-35-37.png" width="533"/></span></p>
 <p>.</p>
 <p>Scripts and programs should<span style="color: #ff0000;"> alwaysreact(總是反應)</span> according to the current system call function and possibly the simulation state in order to <span>behave correctly(正確運行)</span>. It is good practice to <span style="color: #ff0000;">divide each(劃分每個)</span> control code into <span>at<span style="color: #ff0000;"> least(至少)</span></span> 4 system call functions (e.g. for<span style="color: #ff0000;"> non-threaded(非線性) </span>child scripts):</p>
-<p>腳本和程序應始終<span>根據當前系統調用功能以及可能的模擬狀態進行反應</span>，以便正確運行。 優良作法是<span>將每個控制代碼至少分為4個系統調用函數</span>（例如，用於非線程子腳本）：</p>
+<p><span style="background-color: #ffff00;">腳本和程序應始終根據當前系統調用功能以及可能的模擬狀態進行反應</span>，以便正確運行。 優良作法是<span>將每個控制代碼<span style="background-color: #ffff00;">至少分為4個系統調用函數</span></span>（例如，用於非線程子腳本）：</p>
 <ul>
 <li><strong><span style="color: #ff0000;">In</span><span><span style="color: #ff0000;">itialization(初始化)</span> function:</span></strong> sysCall_init: the function is called only when the script is<span style="color: #ff0000;"> initialized(初始化)</span>.</li>
 </ul>
@@ -310,7 +312,8 @@ Newton Dynamics是一個跨平台的逼真的物理模擬文庫。它實現了�
 <li><strong><span><span style="color: #ff0000;">Clean-up(清理)</span> function:</span></strong> sysCall_cleanup: the function is called just before the script is<span style="color: #ff0000;"> de-initialized(未初始化)</span> (e.g. at simulation end, or when the script is <span style="color: #ff0000;">destroyed(銷毀)</span>).</li>
 </ul>
 <p style="padding-left: 30px;"><strong><span>清理函數：</span></strong>sysCall_cleanup：該函數在腳本未初始化之前被調用（例如在模擬結束時或腳本被銷毀時）。</p>
-<p><big><big>Simulation loop</big></big></p><h3>Tutorials</h3>
+<p><big><big>Simulation loop</big></big></p>
+<h3>Tutorials</h3>
 <p><a href="https://www.coppeliarobotics.com/helpFiles/en/tutorials.htm">Tutorials</a></p>
 <p><img alt="" height="57" src="/images/chrome_2020-03-24_01-07-28.png" width="249"/></p>
 <h1>Assignment 2</h1>
@@ -358,8 +361,28 @@ Newton Dynamics是一個跨平台的逼真的物理模擬文庫。它實現了�
 <p>Often, during a conversation with others, we think more about what we are going to say next rather than what others are saying. This impacts the feedback process, especially in design, because we often know what we want to say before hearing another opinion or solution.<br/>通常，在與他人交談時，我們會更多地考慮接下來要說的內容，而不是別人在說什麼。這會影響反饋過程，尤其是在設計過程中，因為在聽到其他意見或解決方案之前，我們通常會知道我們要說的話。</p>
 <p>When you choose to listen first and react second, it allows you to fully understand the feedback someone else is presenting and sets you up to go deeper — what is the perspective they're using and the place they're coming from? Chances are this is a perspective you didn't consider during the creation process. By listening to and understanding the context and reasoning behind the feedback you're receiving, you're opening yourself to more ways of looking at, thinking of, and experiencing your design. You can then test these new perspectives against the challenges, goals, and use cases you're designing for to see if they better suit the user.<br/>當您選擇先聆聽然後再做出反應時，它可以讓您完全理解其他人的反饋，並讓您更深入地了解自己-他們使用的觀點是什麼以及來自何處？很有可能這是您在創建過程中未曾考慮過的觀點。通過聽取並理解所收到反饋背後的上下文和推理，您可以以更多的方式來審視，思考和體驗設計。然後，您可以針對要設計的挑戰，目標和用例來測試這些新觀點，以查看它們是否更適合用戶。</p>
 <p>It's easier to be more receptive of feedback when all collaborators practice active listening. Ultimately, the skill of giving great feedback comes from learning how to receive it. As we make an effort to be better listeners, we also find ourselves becoming more humble and, in our opinion,Finding and Using the Right Design Collaboration Tools.<br/>當所有協作者都在積極聆聽時，更容易接受反饋。 最終，提供良好反饋的技能來自學習如何獲得反饋。 當我們努力成為更好的傾聽者時，我們也發現自己變得越來越謙虛，並認為尋找和使用正確的設計協作工具</p>
+<h4>page4</h4>
+<h4>Materials and Processes(材料與工藝)</h4>
+<p><strong><span style="color: #ff0000;">4.1 Cost Versus Time Versus Specification(成本與時間對規格)</span></strong></p>
 <p></p>
-<h1>紀錄</h1>
+<p>we’ll return to cost considerations of the design. With that reestablishment of this design “touchstone,” we’ll do with more “building blocks” that will be available to the designer to determine the best materials and processes for their enclosure parts.</p>
+<p>我們將回到設計的成本考慮因素。 通過重新設計“試金石”，我們將<br/>設計更多的“構建基塊”以供設計師使用<br/>確定其外殼零件的最佳材料和工藝。</p>
+<p>There are cases where prototypes required for the final design need to be developed. These “prototypes” are certainly less cost-sensitive, as it is time that is usually the critical factor here. However, even though the prototype itself may not have a cost-sensitivity, the overall project cost is impacted in the sense that cost is sacrificed for speed just in the prototype portion of the project</p>
+<p>在某些情況下，需要開發最終設計所需的原型。這些“原型”當然對成本不太敏感，因為時間通常是這裡的關鍵因素。然而，<br/>即使原型本身可能不具有成本敏感性，但整個項目的成本<br/>在某種意義上受到影響，因為僅在原型的一部分中就犧牲了速度成本<br/>該項目</p>
+<p>Time plays into this “cost picture” very much. The “time-to-market” can be a huge driver in product development. That is, if a certain product isn’t released in some specific time frame (such as the spring planting season or the electronic show before the holidays), that can mean a huge difference to the total sales of the product. So, coupled with cost is the aspect of time.</p>
+<p>時間在這個“成本圖”中扮演了非常重要的角色。 “上市時間”可能是產品開發的巨大推動力。 也就是說，如果某個產品沒有在某個特定的時間範圍內發布（例如春季播種季節或節假日前的電子展覽），則可能對產品的總銷售額產生巨大的影響。 因此，成本是時間的一部分。</p>
+<ol>
+<li>Emphasis on time in material/process/manufacturability choice for the early<br/>stages of the development process</li>
+<li> A “high-production” and cost-reduced product release can come occur in the<br/>later stages of the development process</li>
+</ol>
+<p style="text-align: center;"></p>
+<p><span>1.<span style="color: #ff6600;"><strong>儘早選擇材料/工藝/可製造性</strong></span></span><br/><span style="color: #ff6600;"><strong>開發過程的各個階段</strong></span></p>
+<p>2.<span style="color: #ff6600;"><strong>在產品中可能會出現“高產量”和降低成本的產品發布。</strong></span><br/><span style="color: #ff6600;"><strong>開發過程的後期</strong></span></p>
+<p>&gt;&gt;it could have been determined that the overall cost is minimized by a “two-stage”</p>
+<p><span style="color: #000080;"><strong>可以確定通過上述“兩階段”將總成本降至最低</strong></span></p>
+<p><sub><span style="color: #000080;"><strong></strong></span></sub></p>
+<p>Cost can also be broken down into several time frames, such as:</p>
+<p></p><h1>紀錄</h1>
 <p>紀錄每週專案(亂數分組紀錄、可攜系統紀錄、四輪小車紀錄)進度</p>
 <h2>亂數分組紀錄</h2>
 <p>W2：<br/>相關資料尋找、查詢、閱讀<br/>簡易python撰寫 練習 運用 <br/>編寫亂數分組程序<br/>討論其關聯性及應用</p>
