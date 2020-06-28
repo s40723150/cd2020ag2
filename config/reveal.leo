@@ -21,6 +21,9 @@
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200624150730.1"><vh>0</vh>
+<v t="leo.20200624150730.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20200322214111.1"><vh>1</vh>
 <v t="leo.20200322214111.2"><vh>1</vh></v>
 </v>
@@ -68,9 +71,7 @@
 <v t="leo.20200323234820.2"><vh>MSYS2 p1</vh></v>
 </v>
 <v t="leo.20200323234829.1"><vh>PortableGit</vh>
-<v t="leo.20200323234829.2"><vh>P1</vh>
 <v t="leo.20200323234829.3"><vh>PortableGit p1</vh></v>
-</v>
 </v>
 <v t="leo.20200323234851.1"><vh>Tiny C Compiler</vh>
 <v t="leo.20200323234851.2"><vh>tcc p1</vh></v>
@@ -93,6 +94,17 @@
 </v>
 <v t="leo.20200325025000.1"><vh>CoppeliaSim</vh>
 <v t="leo.20200325025000.2"><vh>CoppeliaSim</vh></v>
+</v>
+</v>
+<v t="leo.20200624093229.1"><vh>service</vh>
+<v t="leo.20200624093229.2"><vh>service</vh></v>
+</v>
+<v t="leo.20200624105258.1"><vh>VirtualBox</vh>
+<v t="leo.20200624105459.1"><vh>Setting VirtualBox Network</vh>
+<v t="leo.20200624105459.2"><vh>SettingIPv4</vh></v>
+</v>
+<v t="leo.20200624151940.1"><vh>Setting VirtualBox Network</vh>
+<v t="leo.20200624151940.2"><vh>SettingIPv6</vh></v>
 </v>
 </v>
 <v t="leo.20200323235424.1"><vh>快捷鍵</vh>
@@ -119,14 +131,11 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## CD2020 AG2 亂數分組
-
+<t tx="leo.20180902120523.10">## 協同產品設計實習
+## CD2020 AG2
 
 &lt;small&gt;
- [40723147](https://github.com/s40723147/cd2020)
- [40723108](https://github.com/s40723108/cd2020)
- [40723127](https://github.com/s40723127/cd2020)
- [40723133](https://github.com/s40723133/cd2020)
+Created by [AG2](https://s40723150.github.io/cd2020ag2/)
 &lt;/small&gt;
 </t>
 <t tx="leo.20180902120523.2"></t>
@@ -438,7 +447,7 @@ print(group[36:49])
 
 						
 </t>
-<t tx="leo.20200323234801.3"># Python 3.8.2
+<t tx="leo.20200323234801.3">## Python 3.8.2
 
 [下載Python3.8.2](https://www.python.org/downloads/release/python-382/) 的Windows x86-64 executable installer版本，下載完後，執行安裝
 
@@ -512,7 +521,7 @@ pip install flask bs4 lxml pelican markdown flask_cors leo
 
 						
 </t>
-<t tx="leo.20200323234812.3"># SciTE
+<t tx="leo.20200323234812.3">## SciTE
 
 [下載SciTE](https://www.scintilla.org/SciTEDownload.html) full 64-bit download版本
 
@@ -557,29 +566,18 @@ pip install flask bs4 lxml pelican markdown flask_cors leo
 
 						
 </t>
-<t tx="leo.20200323234820.2"># MSYS2
+<t tx="leo.20200323234820.2">## MSYS2
 
 [下載MSYS2](https://www.msys2.org/) 下載 msys2-x86_64-20190524.exe 並執行
 
 選擇安裝目錄為CD2020\data\msys64
 </t>
-<t tx="leo.20200323234829.1">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20200323234829.2">&lt;section data-markdown&gt;
+<t tx="leo.20200323234829.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20200323234829.3"># PortableGit
+&lt;/section&gt;</t>
+<t tx="leo.20200323234829.3">## PortableGit
 
 [下載PortableGit](https://git-scm.com/download/win) 選擇64-bit Git for Windows Portable
 
@@ -594,7 +592,7 @@ pip install flask bs4 lxml pelican markdown flask_cors leo
 
 						
 </t>
-<t tx="leo.20200323234841.2"># 可攜系統配置
+<t tx="leo.20200323234841.2">## 可攜系統配置
 
 * Python 3.8.2
 * SciTE
@@ -613,7 +611,7 @@ pip install flask bs4 lxml pelican markdown flask_cors leo
 
 						
 </t>
-<t tx="leo.20200323234851.2"># Tiny C Compiler
+<t tx="leo.20200323234851.2">## Tiny C Compiler
 ```
 git clone https://github.com/TinyCC/tinycc.git tcc
 ```
@@ -628,7 +626,7 @@ git clone 整個倉儲到 data 目錄下並命名目錄為 tcc
 
 						
 </t>
-<t tx="leo.20200323234900.2"># Jupyterlab
+<t tx="leo.20200323234900.2">## Jupyterlab
 ```
 pip install jupyterlab==2.0.1
 ```
@@ -643,7 +641,7 @@ pip install jupyterlab==2.0.1
 
 						
 </t>
-<t tx="leo.20200323234908.2"># Fossil SCM
+<t tx="leo.20200323234908.2">## Fossil SCM
 下載 [Fossil SCM](https://www.fossil-scm.org/) 解壓縮後將 fossil.exe 
 
 放到 data 目錄下
@@ -803,5 +801,72 @@ make.start()
 * Writing code (編程)
 * Simulation (模擬)
 </t>
+<t tx="leo.20200624093229.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624093229.2">## service
+
+&lt;iframe src="https://s40723150.github.io/cd2020ag2/content/Service.html" width="500" height="492" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="width: 800px;"&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200624105258.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+						
+</t>
+<t tx="leo.20200624105459.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200624105459.2">## Setting VirtualBox Network
+
+在VirtualBox IPv4網路設定
+
+&lt;iframe width="1263" height="480" src="https://www.youtube.com/embed/ZoKaG6D-Rgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200624150730.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624150730.2">## 亂數分組
+
+&lt;small&gt;
+ [40723147](https://github.com/s40723147/cd2020)
+ [40723108](https://github.com/s40723108/cd2020)
+ [40723127](https://github.com/s40723127/cd2020)
+ [40723133](https://github.com/s40723133/cd2020)
+&lt;/small&gt;
+</t>
+<t tx="leo.20200624151940.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200624151940.2">## Setting VirtualBox Network
+
+在VirtualBox IPv6網路設定
+
+&lt;iframe width="1263" height="480" src="https://www.youtube.com/embed/qjDV7TY21-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
