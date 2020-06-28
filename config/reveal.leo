@@ -82,6 +82,34 @@
 <v t="leo.20200323234908.1"><vh>Fossil SCM</vh>
 <v t="leo.20200323234908.2"><vh>Fossil SCM p1</vh></v>
 </v>
+<v t="leo.20200628135219.1"><vh>Mechatronic Project</vh>
+<v t="leo.20200628140512.1"><vh>Mechatronic Project</vh>
+<v t="leo.20200628140512.2"><vh>Mechatronic Project</vh></v>
+</v>
+<v t="leo.20200628140639.1"><vh>Mechatronic Project</vh>
+<v t="leo.20200628140639.2"><vh>Mechatronic Project</vh></v>
+</v>
+<v t="leo.20200628141619.1"><vh>Mechatronic Project</vh>
+<v t="leo.20200628141619.2"><vh>Mechatronic Project</vh></v>
+</v>
+<v t="leo.20200628141138.1"><vh>Mechatronic Project</vh>
+<v t="leo.20200628141138.2"><vh>Mechatronic Project</vh></v>
+</v>
+</v>
+<v t="leo.20200628142338.1"><vh>onshape零組件繪製</vh>
+<v t="leo.20200628142338.2"><vh>1.onshape零組件繪製</vh>
+<v t="leo.20200628142338.3"><vh>1.onshape零組件繪製</vh></v>
+</v>
+<v t="leo.20200628142338.4"><vh>1.onshape零組件繪製</vh>
+<v t="leo.20200628142338.5"><vh>1.onshape零組件繪製</vh></v>
+</v>
+<v t="leo.20200628142338.6"><vh>1.onshape零組件繪製</vh>
+<v t="leo.20200628142338.7"><vh>Mechatronic Project</vh></v>
+</v>
+<v t="leo.20200628142338.8"><vh>1.onshape零組件繪製</vh>
+<v t="leo.20200628142338.9"><vh>Mechatronic Project</vh></v>
+</v>
+</v>
 <v t="leo.20200325001359.1"><vh>CoppeliaSim</vh>
 <v t="leo.20200325021246.1"><vh>CoppeliaSim</vh>
 <v t="leo.20200325001359.2"><vh>CoppeliaSim</vh></v>
@@ -868,5 +896,195 @@ make.start()
 在VirtualBox IPv6網路設定
 
 &lt;iframe width="1263" height="480" src="https://www.youtube.com/embed/qjDV7TY21-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200628135219.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200628140512.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200628140512.2">&lt;head&gt;  
+  &lt;font size="9"&gt;Mechatronic Project&lt;/font&gt;    
+  
+  
+  &lt;font size="6"&gt;為了能夠得到更具經濟效應的產品設計流程&lt;/font&gt;    
+  &lt;font size="6"&gt;所以使用加入協同的產品設計流程&lt;/font&gt;    
+  &lt;font size="6"&gt;進行專案設計及流程探討&lt;/font&gt;    
+  
+  
+  &lt;font size="6"&gt;Created by 40723144, 40723147 , 40723148 , 40723150 &lt;/font&gt;    
+  
+  
+&lt;/head&gt;</t>
+<t tx="leo.20200628140639.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200628140639.2">&lt;head&gt;  
+  &lt;font size="9"&gt;Mechatronic Project&lt;/font&gt;    
+  
+  
+  &lt;font size="6"&gt;1.onshape零組件繪製&lt;/font&gt;    
+  &lt;font size="6"&gt;2.CoppeliaSim動態模擬&lt;/font&gt;    
+  &lt;font size="6"&gt;3.CoppeliaSim Remote API&lt;/font&gt;    
+  &lt;font size="6"&gt;4.VirtualBox 虛擬主機遠程操控&lt;/font&gt;    
+  &lt;font size="6"&gt;5.Google + Domain API&lt;/font&gt;    
+
+  
+  
+&lt;/head&gt;</t>
+<t tx="leo.20200628141138.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200628141138.2">&lt;head&gt;  
+  &lt;font size="9"&gt;Mechatronic Project&lt;/font&gt;    
+  
+  
+  &lt;font size="6"&gt;加入協同產品設計流程後，可減少時間成本的損失，&lt;/font&gt;    
+  &lt;font size="6"&gt;故可以在更短的設計週期內完成產品設計‧&lt;/font&gt;    
+  &lt;img src="./../images/A2.協同設計流程.png" width="450" &gt;&lt;/iframe&gt;
+
+  
+  
+&lt;/head&gt;</t>
+<t tx="leo.20200628141619.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200628141619.2">&lt;head&gt;  
+  &lt;font size="9"&gt;Mechatronic Project&lt;/font&gt;    
+  
+  
+  &lt;font size="6"&gt;以過往的設計經驗來看需先由頭至尾一步一步，&lt;/font&gt;    
+  &lt;font size="6"&gt;經由每一位參與者的巧手下完成，&lt;/font&gt;    
+   &lt;font size="6"&gt;在不發生不如意的情況下進行，&lt;/font&gt;    
+  &lt;font size="6"&gt;也至少需要花上好幾步的步驟來完成產品的設計‧&lt;/font&gt;    
+  
+  &lt;img src="./../images/A1.傳統設計流程.png" width="450" &gt;&lt;/iframe&gt;
+
+  
+  
+&lt;/head&gt;</t>
+<t tx="leo.20200628142338.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200628142338.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200628142338.3">&lt;head&gt;  
+  &lt;font size="9"&gt;1.onshape零組件繪製&lt;/font&gt;    
+  
+  
+  &lt;font size="6"&gt;onshape是個透過網頁且有板次管理的3D繪圖的網站&lt;/font&gt;    
+  &lt;font size="6"&gt;我們可以藉由版次管理來獲得每位參與者的更改內容&lt;/font&gt;    
+  &lt;font size="6"&gt;運用在此次專案的模型車繪製&lt;/font&gt;    
+  &lt;font size="6"&gt;且在這次設計當中總共用到了兩個版本的車型&lt;/font&gt;    
+  
+  
+  &lt;font size="6"&gt;Created by  40723147  &lt;/font&gt;    
+  
+  
+&lt;/head&gt;</t>
+<t tx="leo.20200628142338.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200628142338.5">&lt;head&gt;  
+  &lt;font size="9"&gt;1.onshape零組件繪製&lt;/font&gt;    
+  
+  
+  &lt;font size="6"&gt;第一次測試版本車殼繪製&lt;/font&gt;    
+ &lt;font size="6"&gt;此次車型以及車體繪製皆是以測試車作為出發點設計&lt;/font&gt;    
+  &lt;font size="6"&gt;目的是在組員摸索CoppeliaSim前期所需模型提供&lt;/font&gt;    
+ &lt;font size="4"&gt;以下是模型展示短片:&lt;/font&gt;    
+   &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/6thaiPmWWqw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+  
+  
+&lt;/head&gt;</t>
+<t tx="leo.20200628142338.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200628142338.7">&lt;head&gt;  
+  &lt;font size="9"&gt;1.onshape零組件繪製&lt;/font&gt;    
+  
+  
+  &lt;font size="6"&gt;第二版模型繪製&lt;/font&gt;    
+  &lt;font size="6"&gt;這次的模型就是我們最終需要的呈現模型&lt;/font&gt;    
+   &lt;font size="6"&gt;本模型有幾項重點&lt;/font&gt;    
+  &lt;font size="5"&gt;1.更有線條張力的車體&lt;/font&gt;    
+&lt;font size="5"&gt;2.有流線感的尾翼搭配&lt;/font&gt;    
+ &lt;font size="5"&gt;3.尾翼空力的設計&lt;/font&gt;    
+&lt;font size="5"&gt;4.車體整體尺寸對應&lt;/font&gt;    
+  
+  &lt;img src="./../images/13.可當底.png" width="300" &gt;&lt;/iframe&gt;
+
+  
+  
+&lt;/head&gt;</t>
+<t tx="leo.20200628142338.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200628142338.9">&lt;head&gt;  
+  &lt;font size="9"&gt;1.onshape零組件繪製&lt;/font&gt;    
+  
+   &lt;font size="6"&gt;較詳細的零件設計步驟可參考:[對應連結](https://s40723147.github.io/cd2020/content/%E7%AC%AC%E4%BA%8C%E7%89%88%E8%BB%8A%E6%AE%BC.html)&lt;/font&gt;    
+  &lt;font size="6"&gt;接下來展示第二版的模型繪製簡介:&lt;/font&gt;    
+  
+   &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/qtXdIHNT9bs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;/head&gt;</t>
 </tnodes>
 </leo_file>
