@@ -124,16 +124,60 @@
 <v t="leo.20200325025000.2"><vh>CoppeliaSim</vh></v>
 </v>
 </v>
+<v t="leo.20200629152044.1"><vh>VirtualBox</vh>
+<v t="leo.20200629152044.2"><vh>VirtualBox</vh>
+<v t="leo.20200629152044.3"><vh>enable Google API</vh></v>
+</v>
+<v t="leo.20200629152044.4"><vh>network setting IPv4</vh>
+<v t="leo.20200629152044.5"><vh>setting IPv4</vh></v>
+</v>
+<v t="leo.20200629152044.6"><vh>network setting IPv6-1</vh>
+<v t="leo.20200629152044.7"><vh>setting IPv6</vh></v>
+</v>
+<v t="leo.20200629152044.8"><vh>network setting IPv6 DHCP</vh>
+<v t="leo.20200629152044.9"><vh>setting IPv6</vh></v>
+</v>
+<v t="leo.20200629152044.10"><vh>network setting IPv6-2</vh>
+<v t="leo.20200629152044.11"><vh>setting IPv6</vh></v>
+</v>
+<v t="leo.20200629152044.12"><vh>network setting IPv6 DHCP</vh>
+<v t="leo.20200629152044.13"><vh>setting IPv6</vh></v>
+</v>
+<v t="leo.20200629152044.14"><vh>connect setting IPv4</vh>
+<v t="leo.20200629152044.15"><vh>puttyIPv4</vh></v>
+</v>
+<v t="leo.20200629152044.16"><vh>connect setting IPv6</vh>
+<v t="leo.20200629152044.17"><vh>puttyIPv6</vh></v>
+</v>
+<v t="leo.20200629152044.18"><vh>connect setting X11</vh>
+<v t="leo.20200629152044.19"><vh>putty X11</vh></v>
+</v>
+<v t="leo.20200629152044.20"><vh>install xming</vh>
+<v t="leo.20200629152044.21"><vh>xming</vh></v>
+</v>
+<v t="leo.20200629152044.22"><vh>install File Manager</vh>
+<v t="leo.20200629152044.23"><vh>File Manager</vh></v>
+</v>
+</v>
+<v t="leo.20200629152135.1"><vh>CMS</vh>
+<v t="leo.20200629152135.2"><vh>CMS</vh>
+<v t="leo.20200629152135.3"><vh>enable Google API</vh></v>
+</v>
+<v t="leo.20200629152135.4"><vh>oauth2 clilent account &amp; ID 1</vh>
+<v t="leo.20200629152135.5"><vh>how to get oauth_gm.txt 1</vh></v>
+</v>
+<v t="leo.20200629152135.6"><vh>oauth2 clilent account &amp; ID 2</vh>
+<v t="leo.20200629152135.7"><vh>how to get oauth_gm.txt 2</vh></v>
+</v>
+<v t="leo.20200629152135.8"><vh>install module</vh>
+<v t="leo.20200629152135.9"><vh>how to test2</vh></v>
+</v>
+<v t="leo.20200629152135.10"><vh>video</vh>
+<v t="leo.20200629152135.11"><vh>video</vh></v>
+</v>
+</v>
 <v t="leo.20200624093229.1"><vh>service</vh>
 <v t="leo.20200624093229.2"><vh>service</vh></v>
-</v>
-<v t="leo.20200624105258.1"><vh>VirtualBox</vh>
-<v t="leo.20200624105459.1"><vh>Setting VirtualBox Network</vh>
-<v t="leo.20200624105459.2"><vh>SettingIPv4</vh></v>
-</v>
-<v t="leo.20200624151940.1"><vh>Setting VirtualBox Network</vh>
-<v t="leo.20200624151940.2"><vh>SettingIPv6</vh></v>
-</v>
 </v>
 <v t="leo.20200323235424.1"><vh>快捷鍵</vh>
 <v t="leo.20200323235424.2"><vh>投影片快捷鍵</vh></v>
@@ -841,27 +885,6 @@ make.start()
 <t tx="leo.20200624093229.2">## service
 
 &lt;iframe src="https://s40723150.github.io/cd2020ag2/content/Service.html" width="500" height="492" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="width: 800px;"&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20200624105258.1">&lt;section&gt;
-@others
-&lt;/section&gt;
-						
-</t>
-<t tx="leo.20200624105459.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20200624105459.2">## Setting VirtualBox Network
-
-在VirtualBox IPv4網路設定
-
-&lt;iframe width="1263" height="480" src="https://www.youtube.com/embed/ZoKaG6D-Rgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200624150730.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -880,22 +903,6 @@ make.start()
  [40723133](https://github.com/s40723133/cd2020)
 &lt;/small&gt;
 </t>
-<t tx="leo.20200624151940.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20200624151940.2">## Setting VirtualBox Network
-
-在VirtualBox IPv6網路設定
-
-&lt;iframe width="1263" height="480" src="https://www.youtube.com/embed/qjDV7TY21-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200628135219.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -1086,5 +1093,242 @@ make.start()
 
 
 &lt;/head&gt;</t>
+<t tx="leo.20200629152044.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20200629152044.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152044.11"> ## 網路設定
+ 
+### IPv6(有proxy)
+先設定 proxy
+
+```
+cd /etc/apt/apt.conf.d
+sudo vi proxy.conf
+```
+設定好後，更新proxy設定
+```
+sudo apt update
+```</t>
+<t tx="leo.20200629152044.12">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152044.13">## 網路設定
+ 
+### IPv6(有proxy)
+
+proxy.conf 的內容
+```
+Acquire::http::proxy "http://[2001:288:6004:17::填port號]:3128";
+```</t>
+<t tx="leo.20200629152044.14">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152044.15">## 連線設定
+
+Putty設定  IPv4
+
+&lt;img src="./../images/putty_IPv4.png" width="450"&gt;</t>
+<t tx="leo.20200629152044.16">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152044.17">## 連線設定
+
+Putty設定  IPv6
+
+&lt;img src="./../images/putty_IPv6.png" width="450"&gt;</t>
+<t tx="leo.20200629152044.18">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152044.19">## 連線設定
+
+Putty設定 X11(IPv4或IPv6設定都一樣)
+
+&lt;img src="./../images/putty_x11.png" width="450"&gt;</t>
+<t tx="leo.20200629152044.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152044.20">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152044.21">### 安裝[xming]
+
+&lt;img src="./../images/Xming.png" width="450"&gt;
+
+[xming]: https://sourceforge.net/projects/xming/files/latest/download</t>
+<t tx="leo.20200629152044.22">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152044.23">### File Manager
+安裝nautilus後執行，開啟File Manager
+
+    sudo apt install nautilus
+    sudo nautilus</t>
+<t tx="leo.20200629152044.3"> ## VirtualBox
+ Created by 40723150
+ 
+ * 網路設定
+ 
+ * 連線設定
+</t>
+<t tx="leo.20200629152044.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152044.5"> ## 網路設定
+ 
+### IPv4
+
+* 安裝 net-tools 
+```
+sudo apt install net-tools
+```
+* ``ifconfig`` 查詢 client ID
+</t>
+<t tx="leo.20200629152044.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152044.7"> ## 網路設定
+ 
+### IPv6(有proxy)
+
+先設定DHCP
+
+```
+cd /etc/netplan
+sudo vi 00-installer-config.yaml
+```
+設定好後，更新網路設定
+```
+sudo netplan apply
+```</t>
+<t tx="leo.20200629152044.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152044.9"> ## 網路設定
+ 
+### IPv6(有proxy)
+
+  00-installer-config.yaml 的內容
+  
+```
+# This is the network config written by 'subiquity'
+network:
+    ethernets:
+        enpes3:
+            dhcp4: true
+            dhcp6: true
+            nameservers:
+                addresses:
+                    - 2001:b000:168::1
+    version: 2
+```</t>
+<t tx="leo.20200629152135.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20200629152135.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152135.11"> ## Youtube
+&lt;iframe width="1263" height="480" src="https://www.youtube.com/embed/ijcS1EuAbjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200629152135.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152135.3"> ## CMS
+ ### 啟用API
+  Created by 40723150
+ 
+ * 啟用Google + Domain API [developers]
+ 
+ * 用@ gm.nfu.edu.tw用戶設置登錄名
+ 
+ [developers]: https://console.developers.google.com
+</t>
+<t tx="leo.20200629152135.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152135.5"> ## 獲取oauth_gm.txt
+1. 登錄到您的@gm帳戶
+2. 到[console developers]
+3. 接受許可並創建Google API項目
+4. 啟用Google +Domain API
+5. 在Google + Domain API憑證下，按CONFIGURE CONSENT SCREEN按鈕
+
+[console developers]: https://console.developers.google.com
+</t>
+<t tx="leo.20200629152135.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152135.7"> ## 獲取oauth_gm.txt 
+ 
+ ### 憑證設定
+ 
+6. 選擇內部添加新的應用程序名稱
+7. “ API和服務”→“憑證”
+8. “ OAuth 2.0客戶端ID”為Web應用程序創建
+9. 授權的JavaScript來源：` https://localhost:8443 `
+10. 授權的重定向URI：` https://localhost:8443/login/google/ `
+11. 將自己的的客戶ID和密碼保存到oauth_gm.txt中</t>
+<t tx="leo.20200629152135.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200629152135.9"> ## 安裝
+Authomatic imutils opencv-python
+```
+pip install Authomatic imutils opencv-python
+
+```
+</t>
 </tnodes>
 </leo_file>
