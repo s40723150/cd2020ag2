@@ -154,24 +154,40 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">可攜系統 << <a href='可攜系統.html'>Previous</a> <a href='場景&模型&環境.html'>Next</a> >> 場景&模型&環境<br /><h1>四輪小車</h1>
-<p><span style="background-color: #ffff00;"><big><big></big></big></span><big><big><big><a href="https://www.coppeliarobotics.com/">CoppeliaSim</a><span> </span></big></big></big>(<a href="https://www.coppeliarobotics.com/downloads">download</a>)</p>
-<p style="text-align: justify;">具有集成開發環境的機器人模擬器CoppeliaSim基於分佈式控制體系結構：可以通過嵌入式腳本，插件，ROS節點，BlueZero節點，遠程API客戶端或自定義解決方案分別控制每個對象/模型。這使CoppeliaSim非常通用，非常適合多機器人應用。控制器可以用C / C ++，Python，Java，Lua，Matlab，Octave或Urbi編寫。</p>
-<p style="text-align: justify;">Coppelia Robotics 在<span> </span><a href="https://www.coppeliarobotics.com/helpFiles/en/versionInfo.htm">CoppeliaSim version history</a> 中提到將不再更新 V-rep <span lang="zh-TW">,並將精力集中在CoppeliaSim上。CoppeliaSim與V-REP 100％兼容。<span style="background-color: #ffff99;">它運行速度比V-REP快，並且具有更多功能</span>。</span></p>
-<p><span lang="zh-TW">利用</span>CoppeliaSim進行四輪車模擬前，需要先了解其特色及其基本設置/功能：</p>
-<p><span>1.跨平台支援</span></p>
-<p><span>2.支援六種撰寫程式的方式<span><span> </span></span></span></p>
-<p><span><span><span>3.支援6種程式語言</span></span></span></p>
-<p><span><span><span>4.具備完整的運動學計算器<span><span> </span></span></span></span></span></p>
-<p><span><span><span><span><span>5.支援路線及運動完整規劃</span></span></span></span></span></p>
-<p><span><span><span><span><span>6.支援<span> </span><a href="https://en.wikipedia.org/wiki/Remote_Application_Programming_Interface">Remote API</a></span></span></span></span></span></p>
-<p><span><span><span><span><span>及<a href="https://www.coppeliarobotics.com/helpFiles/en/coppeliaSimFeatures.htm">其他特色</a></span></span></span></span></span></p>
-<p>基本設置/功能可分成以下：</p>
-<p>1.模擬環境 </p>
-<p>2.力學分析</p>
-<p>3.代碼編寫</p>
-<p>4.模擬</p>
-<br />可攜系統 << <a href='可攜系統.html'>Previous</a> <a href='場景&模型&環境.html'>Next</a> >> 場景&模型&環境</div>
+    <div id="tipue_search_content">VirtualBox << <a href='VirtualBox.html'>Previous</a> <a href='CMS.html'>Next</a> >> CMS<br /><h1>指定網路位址連線</h1>
+<h4>Created by 40723150</h4>
+<p>每位同學都有被分配到一個指定的IPv6的網路位置，為了連上被分配到的網路位置，須經由以下設定才可連上</p>
+<p>由於是在學校的共用電腦所以先確認虛擬主機的網路設定，確認ifconfig查到的ID和設定的相同，IPv6的host ID是否是自己被分配到的ID</p>
+<p>確認無誤後，再執行wsgi.py，在虛擬主機測試，但在開啟時缺少pydrive，所以補裝上</p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_774010">
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">pip3 install pydrive</pre>
+</div>
+<div class="syntaxhighlighter html">
+<div class="syntaxhighlighter html" id="highlighter_529532"></div>
+</div>
+</div>
+<p>然後在開啟時網頁還是出現錯誤，所以我去更新mako，先到mako模組的目錄下移除mako，再安裝mako 1.1.3 版本</p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_780097">
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd /usr/lib/python3/dist-packages
+sudo re -r mako
+sudo pip3 install mako==1.1.3</pre>
+</div>
+<div class="syntaxhighlighter html">
+<div>
+<div class="syntaxhighlighter html" id="highlighter_711846"></div>
+</div>
+</div>
+</div>
+<p>之後wsgi.py開啟後就正常了</p>
+<p>接下來就測試外面的主機是否可以正常連上</p>
+<p>先到網路卡設定</p>
+<p><img alt="" height="561" src="https://s40723150.github.io/cd2020/images/%E7%B6%B2%E5%8D%A1%E8%A8%AD%E5%AE%9A.gif" width="700"/></p>
+<p>設定好把proxy和防火牆關閉</p>
+<p>再用瀏覽器連到 https://[2001:288:6004:17:2020:1:0:7150]:17443</p>
+<p>成功連線</p>
+<p><br/><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" height="314" src="https://www.youtube.com/embed/qjDV7TY21-g" width="560"></iframe></p><br />VirtualBox << <a href='VirtualBox.html'>Previous</a> <a href='CMS.html'>Next</a> >> CMS</div>
         
     <!-- footer -->
       <div class="container">
