@@ -560,12 +560,51 @@ pip install jupyterlab==2.0.1
 						
 <section data-markdown>
     <script type="text/template">
-## 四輪機器人將會使用到以下:
+## CoppeliaSim功能:
 * Scenes and models (場景&模型)
 * Environment (環境)
 * Calculation modules (計算模塊)
 * Writing code (編程)
 * Simulation (模擬)
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 四輪車設定簡述:
+#### 1.先在CoppeliaSim內建立簡單的車體結構
+#### 2.將利用Onshape所繪製的模型導入
+#### 3.將模型(stl檔)放置(組裝)到相對位置
+#### 4.將四輪車加入motor
+#### 5.將車子加上腳本,並輸入程式
+#### 6.對車子(motor、模型)進行參數設定(Dynamic properies、Visibility ．．．)
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 四輪車RemoteAPI設定簡述:
+#### 1.在車子上加入sensor命名為cam_f
+#### 2.對sensor進行參數設定(主要特性、圖層．．．)
+#### 3.接著對camera進行設定,先建立腳本並輸入:
+```
+simRemoteApi.start(19999)
+```
+#### 4.設定camera參數(主要特性、圖層．．．)
+#### 完成設定後可將.ttt檔匯進VirtualBox進行API測試
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+### 測試影片
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ueUKxCCQPW8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </script>
 </section>
 
