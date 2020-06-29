@@ -123,6 +123,15 @@
 <v t="leo.20200325025000.1"><vh>CoppeliaSim</vh>
 <v t="leo.20200325025000.2"><vh>CoppeliaSim</vh></v>
 </v>
+<v t="407.20200629213722.1"><vh>CoppeliaSim步驟</vh>
+<v t="407.20200629213722.2"><vh>CoppeliaSim</vh></v>
+</v>
+<v t="407.20200629220917.1"><vh>CoppeliaSimRemoteAPI步驟</vh>
+<v t="407.20200629220917.2"><vh>CoppeliaSim</vh></v>
+</v>
+<v t="407.20200629225525.1"><vh>測試影片</vh>
+<v t="407.20200629225525.2"><vh>CoppeliaSim</vh></v>
+</v>
 </v>
 <v t="leo.20200629152044.1"><vh>VirtualBox</vh>
 <v t="leo.20200629152044.2"><vh>VirtualBox</vh>
@@ -202,6 +211,53 @@
 </v>
 </vnodes>
 <tnodes>
+<t tx="407.20200629213722.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="407.20200629213722.2">## 四輪車設定簡述:
+#### 1.先在CoppeliaSim內建立簡單的車體結構
+#### 2.將利用Onshape所繪製的模型導入
+#### 3.將模型(stl檔)放置(組裝)到相對位置
+#### 4.將四輪車加入motor
+#### 5.將車子加上腳本,並輸入程式
+#### 6.對車子(motor、模型)進行參數設定(Dynamic properies、Visibility ．．．)
+</t>
+<t tx="407.20200629220917.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="407.20200629220917.2">## 四輪車RemoteAPI設定簡述:
+#### 1.在車子上加入sensor命名為cam_f
+#### 2.對sensor進行參數設定(主要特性、圖層．．．)
+#### 3.接著對camera進行設定,先建立腳本並輸入:
+```
+@language python
+simRemoteApi.start(19999)
+```
+#### 4.設定camera參數(主要特性、圖層．．．)
+#### 完成設定後可將.ttt檔匯進VirtualBox進行API測試</t>
+<t tx="407.20200629225525.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="407.20200629225525.2">### 測試影片
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ueUKxCCQPW8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20180902120523.1"></t>
 <t tx="leo.20180902120523.10">## 協同產品設計實習
 ## CD2020 AG2
@@ -866,7 +922,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20200325025000.2">## 四輪機器人將會使用到以下:
+<t tx="leo.20200325025000.2">## CoppeliaSim功能:
 * Scenes and models (場景&amp;模型)
 * Environment (環境)
 * Calculation modules (計算模塊)
