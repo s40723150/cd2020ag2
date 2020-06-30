@@ -560,7 +560,7 @@ pip install jupyterlab==2.0.1
 						
 <section data-markdown>
     <script type="text/template">
-## 四輪機器人將會使用到以下:
+## CoppeliaSim功能:
 * Scenes and models (場景&模型)
 * Environment (環境)
 * Calculation modules (計算模塊)
@@ -571,8 +571,259 @@ pip install jupyterlab==2.0.1
 
 
 						
+<section data-markdown>
+    <script type="text/template">
+## 四輪車設定簡述:
+#### 1.先在CoppeliaSim內建立簡單的車體結構
+#### 2.將利用Onshape所繪製的模型導入
+#### 3.將模型(stl檔)放置(組裝)到相對位置
+#### 4.將四輪車加入motor
+#### 5.將車子加上腳本,並輸入程式
+#### 6.對車子(motor、模型)進行參數設定(Dynamic properies、Visibility ．．．)
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 四輪車RemoteAPI設定簡述:
+#### 1.在車子上加入sensor命名為cam_f
+#### 2.對sensor進行參數設定(主要特性、圖層．．．)
+#### 3.接著對camera進行設定,先建立腳本並輸入:
+```
+simRemoteApi.start(19999)
+```
+#### 4.設定camera參數(主要特性、圖層．．．)
+#### 完成設定後可將.ttt檔匯進VirtualBox進行API測試
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+### 測試影片
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ueUKxCCQPW8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
 </section>
 						
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+ ## VirtualBox
+ Created by 40723150
+ 
+ * 網路設定
+ 
+ * 連線設定
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+ ## 網路設定
+ 
+### IPv4
+
+* 安裝 net-tools 
+```
+sudo apt install net-tools
+```
+* ``ifconfig`` 查詢 client ID
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+ ## 網路設定
+ 
+### IPv6(有proxy)
+
+先設定DHCP
+
+```
+cd /etc/netplan
+sudo vi 00-installer-config.yaml
+```
+設定好後，更新網路設定
+```
+sudo netplan apply
+```
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+ ## 網路設定
+ 
+### IPv6(有proxy)
+
+  00-installer-config.yaml 的內容
+  
+```
+# This is the network config written by 'subiquity'
+network:
+    ethernets:
+        enpes3:
+            dhcp4: true
+            dhcp6: true
+            nameservers:
+                addresses:
+                    - 2001:b000:168::1
+    version: 2
+```
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+ ## 網路設定
+ 
+### IPv6(有proxy)
+先設定 proxy
+
+```
+cd /etc/apt/apt.conf.d
+sudo vi proxy.conf
+```
+設定好後，更新proxy設定
+```
+sudo apt update
+```
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 網路設定
+ 
+### IPv6(有proxy)
+
+proxy.conf 的內容
+```
+Acquire::http::proxy "http://[2001:288:6004:17::填port號]:3128";
+```
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 連線設定
+
+Putty設定  IPv4
+
+<img src="./../images/putty_IPv4.png" width="450">
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 連線設定
+
+Putty設定  IPv6
+
+<img src="./../images/putty_IPv6.png" width="450">
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 連線設定
+
+Putty設定 X11(IPv4或IPv6設定都一樣)
+
+<img src="./../images/putty_x11.png" width="450">
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+### 安裝[xming]
+
+<img src="./../images/Xming.png" width="450">
+
+[xming]: https://sourceforge.net/projects/xming/files/latest/download
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+### File Manager
+安裝nautilus後執行，開啟File Manager
+
+    sudo apt install nautilus
+    sudo nautilus
+    </script>
+</section>
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+ ## CMS
+ ### 啟用API
+  Created by 40723150
+ 
+ * 啟用Google + Domain API [developers]
+ 
+ * 用@ gm.nfu.edu.tw用戶設置登錄名
+ 
+ [developers]: https://console.developers.google.com
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+ ## 獲取oauth_gm.txt
+1. 登錄到您的@gm帳戶
+2. 到[console developers]
+3. 接受許可並創建Google API項目
+4. 啟用Google +Domain API
+5. 在Google + Domain API憑證下，按CONFIGURE CONSENT SCREEN按鈕
+
+[console developers]: https://console.developers.google.com
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+ ## 獲取oauth_gm.txt 
+ 
+ ### 憑證設定
+ 
+6. 選擇內部添加新的應用程序名稱
+7. “ API和服務”→“憑證”
+8. “ OAuth 2.0客戶端ID”為Web應用程序創建
+9. 授權的JavaScript來源：` https://localhost:8443 `
+10. 授權的重定向URI：` https://localhost:8443/login/google/ `
+11. 將自己的的客戶ID和密碼保存到oauth_gm.txt中
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+ ## 安裝
+Authomatic imutils opencv-python
+```
+pip install Authomatic imutils opencv-python
+
+```
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+ ## Youtube
+<iframe width="1263" height="480" src="https://www.youtube.com/embed/ijcS1EuAbjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </script>
+</section>
+</section>
 <section data-markdown>
     <script type="text/template">
 ## service
@@ -582,37 +833,6 @@ pip install jupyterlab==2.0.1
 </section>
 
 
-						
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## Setting VirtualBox Network
-
-在VirtualBox IPv4網路設定
-
-<iframe width="1263" height="480" src="https://www.youtube.com/embed/ZoKaG6D-Rgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## Setting VirtualBox Network
-
-在VirtualBox IPv6網路設定
-
-<iframe width="1263" height="480" src="https://www.youtube.com/embed/qjDV7TY21-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </script>
-</section>
-
-
-
-						
-</section>
 						
 <!--<section data-markdown>
     <script type="text/template">
